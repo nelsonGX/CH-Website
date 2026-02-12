@@ -38,7 +38,7 @@ const Terminal = () => {
   };
 
   useEffect(() => {
-    inputRef.current?.focus();
+    inputRef.current?.focus({ preventScroll: true });
     
     const handleClick = () => {
       inputRef.current?.focus();
