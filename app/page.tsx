@@ -8,7 +8,7 @@ import Terminal from "@/components/terminal";
 export default function Home() {
   return (
     <>
-    {/* <Header /> */}
+    <Header />
 
     <main className="bg-zinc-800">
       <section className="h-screen items-center justify-center w-full flex flex-col space-y-8">
@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="h-screen w-full md:px-24 md:py-16">
+      <section className="h-screen w-full md:px-24 md:pb-4 md:pt-20">
         <Terminal />
       </section>
     </main>
